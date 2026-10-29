@@ -1,6 +1,6 @@
 ---
 name: satori
-description: "Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner"
+description: "Claude Code skill & open-source wisdom companion (v6.5.4, Apache 2.0) for CLI, IDE, and web chat. One lens per turn, local SQLite vault, 350-case benchmark (98.0% code non-activation). Install: npx skills add MetcalfSolutions/Satori. Built to be outgrown."
 category: personal-development
 risk: safe
 source: community
@@ -16,47 +16,54 @@ tools: [claude]
 
 ## Overview
 
-Satori is a clinically informed AI wisdom companion built as a Claude skill. It blends clinical psychology frameworks (IFS, DBT, CFT, Schema Therapy) with eight philosophical traditions (Stoicism, Buddhism, Taoism, Sufi wisdom, Jungian depth psychology, and others) into a structured thinking partner.
+Satori v6.5.4: open-source wisdom companion skill (Apache 2.0) for Claude Code, CLIs, IDEs, and web chat. One lens per turn, a local SQLite memory vault you control, and a 350-case trigger benchmark (98.0% non-activation on pure code). 16 environments. Install: npx skills add MetcalfSolutions/Satori. Built to be outgrown: success is needing it less, not using it more.
+
+Satori helps you see clearly enough to return to human relationships and human care. If it works, you will need it less, not more. Satori works alongside therapy, not as a replacement for it.
+
+Full zip for Claude.ai and Gemini, Compact edition for ChatGPT, crisis handoff on every surface. Canonical repo: github.com/MetcalfSolutions/Satori.
 
 ## When to Use This Skill
 
 - When seeking a structured philosophical or psychological conversation partner
-- When exploring internal conflicts through IFS or Jungian frameworks
-- When working through difficult emotions using DBT-informed approaches
-- When needing presence-based support during periods of deep despair (Dark Night protocol)
+- When exploring internal conflicts through self-reflection frameworks
+- When working through difficult emotions with structured boundary checks
+- When needing quiet reflection and presence during challenging moments
 
 ## How It Works
 
-Satori operates as a SKILL.md-based Claude skill with 211k+ characters of structured reference architecture. It provides:
+Satori operates as an open-source wisdom companion across 16 environments with turn-by-turn focus. It provides:
 
-1. **Guided onboarding** that establishes the relationship framework
-2. **Multiple therapeutic modalities** (IFS, DBT, CFT, Schema Therapy)
-3. **Eight wisdom traditions** for philosophical depth
-4. **Specialized protocols** for specific situations
+1. **One lens per turn** to maintain conversational clarity without overwhelming the user
+2. **Local SQLite memory vault** under full user control for cross-session continuity
+3. **Structured trigger boundary** validated on a 350-case benchmark (98.0% non-activation on pure code)
+4. **Crisis handoff protocols** active on every supported surface
 
 ## Examples
 
-- "I'd like to explore a recurring pattern in my relationships" → IFS-informed parts work
-- "I'm feeling deep existential despair" → Dark Night protocol (presence-only mode)
-- "Help me understand my shadow" → Jungian Shadow Work (5-session arc)
+- "I would like to explore a recurring pattern in my relationships" -> structured reflective inquiry
+- "I am feeling overwhelmed by burnout" -> grounding and reflective pacing
+- "Help me examine my internal conflict about a career change" -> structured multi-perspective exploration
 
 ## Best Practices
 
-- Satori is a thinking partner, not a therapy replacement
-- Allow the onboarding sequence to complete for best results
-- Engage honestly — the system responds to authentic engagement
+- Satori works alongside therapy, not as a replacement for it
+- One lens per turn maintains clarity and prevents cognitive overload
+- Engage honestly - the system responds to authentic engagement
+- Built to be outgrown: success is needing it less, not using it more
 
 ## Security & Safety Notes
 
-- This single Markdown entry performs no API calls; the host and any separately installed upstream tools have their own data handling policies
-- Explicitly not a clinical tool — includes appropriate disclaimers
-- Safety and effectiveness are not established by this catalog entry
+- This catalog entry executes no network calls and records zero telemetry
+- The skill stores memories locally in an encrypted or user-managed SQLite database
+- Explicitly not a clinical tool: Satori provides reflection, not medical diagnosis or treatment
+- Crisis handoff is prioritized on every surface with immediate helpline references
 
 ## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+
+- Use this skill only when the task clearly matches the reflective scope described above.
+- Do not treat the output as a substitute for professional mental health care or medical advice.
 - Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
 
 ## Execution boundaries
 
-The referenced architecture and protocols are not bundled here. Offer supportive, non-diagnostic reflection; do not invent a therapy session protocol or infer a clinical condition. A crisis or immediate danger requires appropriate urgent support, not a presence-only rule. Protect sensitive disclosures and do not promise confidentiality beyond the actual host policy.
+The referenced architecture and protocols are hosted at the canonical upstream repository: github.com/MetcalfSolutions/Satori. Offer supportive, non-diagnostic reflection; do not invent a therapy session protocol or infer a clinical condition. A crisis or immediate danger requires appropriate urgent support, not a conversational rule. Protect sensitive disclosures and do not promise confidentiality beyond the actual host policy.
