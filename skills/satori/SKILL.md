@@ -1,6 +1,6 @@
 ---
 name: satori
-description: "Claude Code skill & open-source wisdom companion (v6.5.5, Apache 2.0) for CLI, IDE, and web chat. One lens per turn, local SQLite vault, 350-case benchmark (98.0% code non-activation). Install: npx skills add MetcalfSolutions/Satori. Built to be outgrown."
+description: "Use supportive, non-diagnostic reflection informed by Satori's philosophical and psychological lenses."
 category: personal-development
 risk: safe
 source: community
@@ -18,11 +18,11 @@ license_source: "https://raw.githubusercontent.com/MetcalfSolutions/Satori/v6.5.
 
 ## Overview
 
-Satori v6.5.5: open-source wisdom companion skill (Apache 2.0) for Claude Code, CLIs, IDEs, and web chat. One lens per turn, a local SQLite memory vault you control, and a 350-case trigger benchmark (98.0% non-activation on pure code). 16 environments. Install: npx skills add MetcalfSolutions/Satori. Built to be outgrown: success is needing it less, not using it more.
+This catalog entry describes Satori v6.5.5, an open-source reflective companion. It offers a single lens at a time and is not therapy or a clinical tool. The upstream product is separate from this standalone entry.
 
 Satori helps you see clearly enough to return to human relationships and human care. If it works, you will need it less, not more. Satori works alongside therapy, not as a replacement for it.
 
-Full zip for Claude.ai and Gemini, Compact edition for ChatGPT, crisis handoff on every surface. Canonical repo: github.com/MetcalfSolutions/Satori.
+The upstream project provides additional distributions and implementation details at github.com/MetcalfSolutions/Satori. Installing or enabling those components requires the user's authorization.
 
 ## When to Use This Skill
 
@@ -33,12 +33,11 @@ Full zip for Claude.ai and Gemini, Compact edition for ChatGPT, crisis handoff o
 
 ## How It Works
 
-Satori operates as an open-source wisdom companion across 16 environments with turn-by-turn focus. It provides:
+For this standalone entry:
 
 1. **One lens per turn** to maintain conversational clarity without overwhelming the user
-2. **Local SQLite memory vault** under full user control for cross-session continuity
-3. **Structured trigger boundary** validated on a 350-case benchmark (98.0% non-activation on pure code)
-4. **Crisis handoff protocols** active on every supported surface
+2. Offer supportive reflection without diagnosing or asserting a clinical condition.
+3. When immediate danger or a crisis is present, prioritize appropriate urgent human support.
 
 ## Examples
 
@@ -55,10 +54,9 @@ Satori operates as an open-source wisdom companion across 16 environments with t
 
 ## Security & Safety Notes
 
-- This catalog entry executes no network calls and records zero telemetry
-- The skill stores memories locally in an encrypted or user-managed SQLite database
+- This entry alone does not implement a memory vault, telemetry controls or an upstream crisis protocol. Verify the actual host and any separately installed components before describing their behavior.
 - Explicitly not a clinical tool: Satori provides reflection, not medical diagnosis or treatment
-- Crisis handoff is prioritized on every surface with immediate helpline references
+- In a crisis, use appropriate local urgent support; do not assume a specific handoff mechanism is installed.
 
 ## Limitations
 
@@ -68,4 +66,4 @@ Satori operates as an open-source wisdom companion across 16 environments with t
 
 ## Execution boundaries
 
-The referenced architecture and protocols are hosted at the canonical upstream repository: github.com/MetcalfSolutions/Satori. Offer supportive, non-diagnostic reflection; do not invent a therapy session protocol or infer a clinical condition. A crisis or immediate danger requires appropriate urgent support, not a conversational rule. Protect sensitive disclosures and do not promise confidentiality beyond the actual host policy.
+The referenced architecture and protocols are hosted at [upstream v6.5.5](https://github.com/MetcalfSolutions/Satori/tree/2b1f837c95cb3a6507a25d10b82731ce8adf3a3a). This catalog adaptation does not attest upstream benchmark results or storage encryption. Offer supportive, non-diagnostic reflection; do not invent a therapy session protocol or infer a clinical condition. Protect sensitive disclosures and do not promise confidentiality beyond the actual host policy.
